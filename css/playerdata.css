@@ -1,0 +1,80 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: calc(100% - 20px); /* Adjust the input width to account for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+#fetchButton {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+#fetchButton:hover {
+    background-color: #005E80;
+}
+
+/* Center the button */
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    max-width: 800px; 
+    margin: 20px auto; 
+}
+
+#checkboxContainer,
+#playerTable {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px 20px 10px;
+}

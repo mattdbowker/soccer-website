@@ -1,0 +1,23 @@
+
+.picture-generator {
+    float: right; 
+    margin-right: 200px; 
+    margin-top: auto;
+}
+/*
+.picture-container {
+    position: absolute;
+    width: 200px;
+    display: block;
+    margin-right: 200px;
+}*/
+
+img {
+    width: 300px;
+}
+
+.pickAgain {
+    font-size: 24px;
+    font-family: Georgia, serif;
+}
+

@@ -1,0 +1,110 @@
+
+html { 
+    background-color: lightblue; 
+}
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar-right {
+    float: right;
+}
+.container {
+    max-width: 1200px;  /* change dims text on screen */
+    margin: 0 auto;
+    padding: 20px;
+}
+.title {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contentB {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center align content */
+    max-width: 1000px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+.image-container {
+    flex: 1; /* Let the image container grow to take available space */
+    padding: 15px; /* Add spacing around the image */
+}
+
+.text-container {
+    flex: 2; /* Let the text container grow to take available space */
+    padding: 15px; /* Add spacing around the text */
+}
+
+.js-button {
+    
+    background-color: #333;
+    color: black;
+    border: none;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
